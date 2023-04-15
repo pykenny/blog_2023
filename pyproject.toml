@@ -1,0 +1,17 @@
+[project]
+name = "pyhsieh_blog"
+description = "Personal blog, ver 2023"
+version = "0.1.0"
+authors = [
+    { name = "Kenny Hsieh", email = "pykenny@gmail.com" }
+]
+dependencies = [
+    "flask",
+    "flask-blogging",
+    "sqlalchemy",
+    "alembic",
+]
+
+[project.optional-dependencies]
+dev = []
+
